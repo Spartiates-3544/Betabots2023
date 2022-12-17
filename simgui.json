@@ -1,0 +1,30 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX[1]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[2]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[4]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/MecanumDrive[1]": "MecanumDrive",
+      "/LiveWindow/Ungrouped/Talon FX [5]": "Motor Controller",
+      "/LiveWindow/Ungrouped/navX-Sensor[1]": "Gyro",
+      "/SmartDashboard/MecanumDrive[1]": "MecanumDrive"
+    }
+  }
+}
